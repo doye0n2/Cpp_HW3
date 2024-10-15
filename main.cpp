@@ -1,12 +1,12 @@
-//¹®Á¦ 1¹ø main.cpp
+//ë¬¸ì œ 1ë²ˆ main.cpp
+#include "Dept.h"   
 #include <iostream>
-#include "Dept.h"
 using namespace std;
 
 int main() {
-    Dept com(10);  // ÃÑ 10¸íÀÇ ÇĞ»ıµé·Î ±¸¼ºµÈ Dept °´Ã¼ com »ı¼º
-    com.read();    // ÇĞ»ıµéÀÇ ¼ºÀûÀ» ÀÔ·Â¹Ş°í 60Á¡ ÀÌ»óÀÎ ÇĞ»ı ¼ö¸¦ °è»ê
-    cout << "60Á¡ ÀÌ»óÀº " << com.getPassCount() << "¸íÀÔ´Ï´Ù." << endl; // 60Á¡ ÀÌ»óÀÎ ÇĞ»ı ¼ö Ãâ·Â
+    Dept com(10);  // ì´ 10ëª…ì˜ í•™ìƒë“¤ë¡œ êµ¬ì„±ëœ Dept ê°ì²´ com ìƒì„±
+    com.read();    // í•™ìƒë“¤ì˜ ì„±ì ì„ ì…ë ¥ë°›ê³  60ì  ì´ìƒì¸ í•™ìƒ ìˆ˜ë¥¼ ê³„ì‚°
+    cout << "60ì  ì´ìƒì€ " << com.getPassCount() << "ëª…ì…ë‹ˆë‹¤." << endl; // 60ì  ì´ìƒì¸ í•™ìƒ ìˆ˜ ì¶œë ¥
 
-    return 0;      // ÇÁ·Î±×·¥ Á¾·á
+    return 0;      // í”„ë¡œê·¸ë¨ ì¢…ë£Œ
 }
