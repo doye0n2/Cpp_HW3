@@ -1,7 +1,7 @@
 //문제 1번 main.cpp
 #include "Dept.h"     // Dept 클래스 선언을 포함하는 헤더
 #include <iostream>   // 입출력 기능을 위한 헤더
-using namespace std;
+using namespace std;  // 표준 네임스페이스 사용
 
 int main() {
     Dept com(10);  // 총 10명의 학생들로 구성된 Dept 객체 com 생성
