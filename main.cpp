@@ -1,6 +1,6 @@
 //문제 1번 main.cpp
-#include "Dept.h"   
-#include <iostream>
+#include "Dept.h"     // Dept 클래스 선언을 포함하는 헤더
+#include <iostream>   // 입출력 기능을 위한 헤더
 using namespace std;
 
 int main() {
